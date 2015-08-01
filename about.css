@@ -1,0 +1,28 @@
+.info{
+  width: 40%;
+  float: left;
+  margin-left: 3%;
+  text-align: left;
+}
+
+.info h3{
+  color: #F8F8FF;
+}
+
+.info img{
+  display: block;
+  width: 10%;
+  height: 10%;
+}
+
+.info p{
+  color: #F8F8FF;
+}
+
+div#logo img{
+  padding: 50px 0 0px 0;
+    display: block;
+    margin: 0px 0px 0px 725px;
+    width: 10%;
+    height: 10%;
+}

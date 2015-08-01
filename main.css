@@ -5,40 +5,41 @@ body{
    	height: 100%;
 }
 
-#container {
-   min-height:100%;
-   position: relative;
-}
-
-#header {
-	color: #F8F8FF;
-}
-
 div#header ul{
-	float: right;
-	margin-right: 25px;
-	font-size: 16px;
+    position: absolute;
 	}
 
 div#header li{
     display: inline-block;
-    padding: 1em 10px 0 0;
-    vertical-align: bottom;
-    margin: 5px 5px 0 0;
+    padding: 0em 10px 0 0;
+    margin: 0px 5px 0 0;
 	font-size: 16px;	
 }
 
 div#header li a {
-  background color: #F8F8FF;
-  font color: #D3D3D3;
-  text-decoration: none;
+    background color: #F8F8FF;
+    color: #D3D3D3;
+    text-decoration: none;
 }
 
-div#body {
-   padding:10px;
-   padding-bottom:60px;   
+div#footer ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: 1400px;
+    }
+
+div#footer li{
+    display: inline-block;
+    padding: 0em 10px 0 0;
+    margin: 0px 5px 0 0;
+    font-size: 16px;    
 }
 
+div#footer li a {
+    background color: #F8F8FF;
+    font color: #D3D3D3;
+}
 
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
@@ -52,7 +53,7 @@ div#body {
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 0px;
+    top: 40px;
     left: 0px;
     z-index: 0; 
 }
@@ -63,7 +64,7 @@ div#body {
 
 .cb-slideshow li span { 
     width: 100%;
-    height: 100%;
+    height: 90%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -98,23 +99,23 @@ div#body {
     background-image: url(slideshowimage2.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/2.jpg);
+    background-image: url(slideshowimage4.jpg);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../images/3.jpg);
+    background-image: url(slideshowimage19.jpg);
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(../images/4.jpg);
+    background-image: url(slideshowimage6.jpg);
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(../images/5.jpg);
+    background-image: url(slideshowimage13.jpg);
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(../images/6.jpg);
+    background-image: url(slideshowimage1.jpg);
     animation-delay: 30s; 
 }
 
@@ -148,34 +149,5 @@ div#body {
     17% { opacity: 1 }
     19% { opacity: 0 }
     100% { opacity: 0 }
-}
-
-div#logo img{
-	padding: 50px 0 0px 0;
-  	display: block;
-  	margin: 0px 0px 0px 725px;
-  	width: 10%;
-  	height: 10%;
-}
-
-.info{
-	width: 40%;
-	float: left;
-	margin-left: 3%;
-	text-align: left;
-}
-
-.info h3{
-	color: #F8F8FF;
-}
-
-.info img{
-	display: block;
-	width: 10%;
-	height: 10%;
-}
-
-.info p{
-	color: #F8F8FF;
 }
 
